@@ -58,7 +58,44 @@ namespace Demo
             //moveabl.Forword();
             //moveabl.Right();
             //moveabl.Left();
-          
+
+            #endregion
+
+            #region Part 05 Deep Copy Vs Shallow Copy
+
+            //// int[] Arr1 = { 1, 2, 3};
+            //// int[] Arr2 = { 4, 5, 6 };
+            //// Console.WriteLine($"Arr01 GetHashCode: { Arr1.GetHashCode()}");
+            //// Console.WriteLine($"Arr02 GetHashCode: {Arr2.GetHashCode()}");
+            //// Arr2 = Arr1;
+            //// 
+            //// Console.WriteLine("After Shallow Copy =======> Arr2=Arr1");
+            //// Console.WriteLine($"Arr01 GetHashCode: {Arr1.GetHashCode()}");
+            //// Console.WriteLine($"Arr02 GetHashCode: {Arr2.GetHashCode()}");
+            //// Console.WriteLine(Arr1[0]);
+            //// Console.WriteLine(Arr2[0]);
+            //// Arr1[0] = 100;
+            //// Console.WriteLine(Arr1[0]);
+            //// Console.WriteLine(Arr2[0]);
+            //// Arr2= (int[])Arr1.Clone();
+            //// Console.WriteLine("After Clone Copy =======> Arr2=(int[])Arr1.clone()");
+            //// Console.WriteLine($"Arr01 GetHashCode: {Arr1.GetHashCode()}");
+            //// Console.WriteLine($"Arr02 GetHashCode: {Arr2.GetHashCode()}");
+            //// Arr1[0] = 50;
+            //// Console.WriteLine(Arr1[0]);
+            //// Console.WriteLine(Arr2[0]);
+            ////-------------------
+            ////This Object [1,2,3] has 2 reference [Arr1,Arr2] (اسمين دلع )
+            ////This Object [4,5,6] Become Unreachable object.
+            ////Shallow Coppy [سطحي ]
+            ////Clone Method: will generate new object with new difference identity
+            ////            : will the same state [Data] of the caller object.      
+            ////-------------------
+
+
+
+
+
             #endregion
         }
         //static void PrintTenNumberFromSeries(Iseries series)
