@@ -1,5 +1,6 @@
 ﻿using Demo.Interface_Example01;
 using Demo.Interface_Example02;
+using Demo.Interface_Example03;
 
 namespace Demo
 {
@@ -28,16 +29,37 @@ namespace Demo
             #region Part 03 Interface - Example 02
             //SeriesByTwo seriesByTwo = new SeriesByTwo();
             //PrintTenNumberFromSeries(seriesByTwo);
-           
+
             //SeriesByThree seriesByThree = new SeriesByThree();
             //Console.WriteLine("===================================================================================");
             //PrintTenNumberFromSeries(seriesByThree);
-            
+
             //SeriesByFour seriesByFour = new SeriesByFour();
             //Console.WriteLine("===================================================================================");
             //PrintTenNumberFromSeries(seriesByFour);
             #endregion
 
+            #region Part 04 Interface - Example 03
+            // AirPlane plane = new AirPlane();
+
+            //IMoveable moveable = new AirPlane();
+            //moveable.Backword();
+            //moveable.Forword();
+            //moveable.Right();
+            //moveable.Left();
+            //IFlyable flyable = new AirPlane();
+            //flyable.Backword();
+            //flyable.Forword();
+            //flyable.Right();
+            //flyable.Left();
+            //Console.WriteLine("====================================");
+            //IMoveable moveabl = new Car();
+            //moveabl.Backword();
+            //moveabl.Forword();
+            //moveabl.Right();
+            //moveabl.Left();
+          
+            #endregion
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
