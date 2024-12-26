@@ -1,4 +1,5 @@
-﻿using Demo.Interface_Example01;
+﻿using Demo.Built_in_Interfaces;
+using Demo.Interface_Example01;
 using Demo.Interface_Example02;
 using Demo.Interface_Example03;
 
@@ -114,6 +115,51 @@ namespace Demo
 
             #endregion
 
+            #region Part 07 Built-in Interfaces - ICloneable
+            //Employee employee01 = new Employee() { Id = 10, Name = "Gaber", Salary = 8000, Department = new Department() { Code = 1001, Title = "Sales" } };
+            //Employee employee02 = new Employee() { Id = 20, Name = "Omnia", Salary = 4000, Department = new Department() { Code = 2002, Title = "HR" } };
+
+            //Console.WriteLine($"employee01.GetHashCode() {employee01.GetHashCode()}");
+            //Console.WriteLine($"employee02.GetHashCode() {employee02.GetHashCode()}");
+            //employee01 = employee02;
+            //Console.WriteLine($"After Shallow Copy");
+
+            //Console.WriteLine($"employee01.GetHashCode() {employee01.GetHashCode()}");
+            //Console.WriteLine($"employee02.GetHashCode() {employee02.GetHashCode()}");
+
+            //employee02 = (Employee)employee01.Clone(); //Deep clone with clone 2.1
+            //// Clone Method : This Method Generate New Object with New and Different Identity
+            ////              : This Object will Have the same state [data] of caller object
+            //Console.WriteLine($"After Deep Copy");
+            //Console.WriteLine($"employee01.GetHashCode() {employee01.GetHashCode()}");
+            //Console.WriteLine($"employee02.GetHashCode() {employee02.GetHashCode()}");
+
+            //Console.WriteLine($"employee01----> {employee01}");
+            //Console.WriteLine($"employee02----> {employee02}");
+
+
+            //employee02 = new Employee(employee01);  //Deep Copy 2.2
+
+            //if (employee01.Department is not null)
+            //    employee01.Department.Title = "Technical";
+
+            //Console.WriteLine(" After This code: employee01.Name =Hitham; ");
+
+            //Console.WriteLine($"employee01----> {employee01}");
+            //Console.WriteLine($"employee02----> {employee02}");
+            //Console.WriteLine("-------------------------------");
+            //Console.WriteLine("-------------------------------");
+            //Console.WriteLine("-------------------------------");
+
+            //Console.WriteLine(" After This code: Copy Constructor --> employee02 = new Employee(employee01);");
+            //Console.WriteLine($"employee01.GetHashCode() {employee01.GetHashCode()}");
+            //Console.WriteLine($"employee02.GetHashCode() {employee02.GetHashCode()}");
+
+            //Console.WriteLine($"employee01----> {employee01}");
+            //Console.WriteLine($"employee02----> {employee02}");
+
+
+            #endregion
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
