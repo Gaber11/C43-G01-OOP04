@@ -97,6 +97,23 @@ namespace Demo
 
 
             #endregion
+
+            #region Part06 Why Clone Method Says it Makes a Shallow Copy
+            //string[] Names01 = ["Gaber", "Ahmed", "Hager"];
+            //string[] Names02 = ["Saber", "Mohmed", "Tag"];
+            //Console.WriteLine($"Names01.GetHashCode(): {Names01.GetHashCode()}");
+            //Console.WriteLine($"Names02.GetHashCode(): {Names02.GetHashCode()}");
+            //Names02 = (string[]) Names01.Clone();
+            ////Clone Method : will Generate New Object with new and Different Identity.
+            ////              : This Object will have Same State [Data] of original object.[Shallow coppy of items]
+            //Console.WriteLine("===============AFTER Deep Coppy: ----->  Names02 = (string[]) Names01.Clone() ");
+            //Console.WriteLine($"Names01.GetHashCode(): {Names01.GetHashCode()}");
+            //Console.WriteLine($"Names02.GetHashCode(): {Names02.GetHashCode()}");
+
+
+
+            #endregion
+
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
