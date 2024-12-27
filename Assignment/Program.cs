@@ -21,6 +21,21 @@ namespace Assignment
 
 
             #endregion
+
+            #region Part01: Question 02
+
+
+            //INotificationService notificationService = new EmailNotificationService();
+            //INotificationService pushNotificationService= new PushNotificationService();
+
+            //INotificationService smsNotificationService = new SmsNotificationService();
+
+            //Console.WriteLine(notificationService.SendNotification("Hamed", "Take the channel"));
+            //Console.WriteLine(pushNotificationService.SendNotification("Gaber", "Take the channel"));
+            //Console.WriteLine(smsNotificationService.SendNotification("Gana", "Take the channel"));
+
+
+            #endregion
         }
     }
 }
