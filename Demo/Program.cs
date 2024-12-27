@@ -3,8 +3,9 @@ using Demo.Interface_Example01;
 using Demo.Interface_Example02;
 using Demo.Interface_Example03;
 using System.Globalization;
+using System.Numerics;
 
-namespace Demo
+namespace Demo.OperatorOverloading
 {
     internal class Program
     {
@@ -211,7 +212,23 @@ namespace Demo
 
             #endregion
 
+            #region Part 10 Operators Overloading - Binary Operators
 
+            //Complex c1 = new Complex(){ Real = 2,Imag= 4};
+            //Complex c2 = new Complex() { Real = 3, Imag = 5 };
+            //Complex c3 = default;  //Null
+            //c3 = c1 + c2;
+            //c1 = default;
+
+            //Console.WriteLine($"C1 = {c1}");
+            //Console.WriteLine($"C2 = {c2}");
+            
+            //Console.WriteLine($"{c1} + {c2} = {c3}");
+
+
+
+
+            #endregion
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
