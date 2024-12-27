@@ -70,7 +70,7 @@ namespace Assignment
 
             //Console.WriteLine("Enter the coordinates for point P2:");
             //bool flag1 = double.TryParse(Console.ReadLine(), out double P2);
-           //-------------------------------------
+            //-------------------------------------
             //Console.WriteLine("Enter the coordinates for point P1:");
             //double P1 = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine("Enter the coordinates for point P2:");
@@ -78,6 +78,10 @@ namespace Assignment
 
 
 
+            #endregion
+
+            #region 4.	Try to use ==
+           // If(P1 == P2) // Don Know
             #endregion
 
 
