@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment.InterFaces
 {
-    internal class Point3D
+    internal class Point3D:ICloneable,IComparable
     {
         public double X { get; set; }
         public double Y { get; set; }
@@ -28,5 +28,18 @@ namespace Assignment.InterFaces
             return $"“Point Coordinates: ({X}, {Y}, {Z})”";
         }
 
+        public object Clone()
+        {
+            return new Point3D(X, Y)
+            { X = X, Y = Y, };
+        }
+
+        public int CompareTo(object? obj)
+        {
+            Point3D?other = (Point3D?)obj;
+            return this.X.CompareTo(other?.X);
+            return this.Y.CompareTo(other?.Y);
+
+        }
     }
 }

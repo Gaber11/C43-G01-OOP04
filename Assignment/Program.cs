@@ -85,8 +85,13 @@ namespace Assignment
             #endregion
 
             #region 5.	Define an array of points and sort this array based on X & Y coordinates.
-             //int[] arr = [1, 2, 7, 6, 5];
-             //Array.Sort(arr);
+            //int[] arr = [1, 2, 7, 6, 5];
+            //Array.Sort(arr);
+
+            #endregion
+            #region 6.	Implement ICloneable interface to be able to clone the object.
+            //int[] arr = [1, 2, 7, 6, 5];
+            //Array.Sort(arr);
 
             #endregion
 
