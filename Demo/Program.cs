@@ -2,6 +2,7 @@
 using Demo.Interface_Example01;
 using Demo.Interface_Example02;
 using Demo.Interface_Example03;
+using System.Globalization;
 
 namespace Demo
 {
@@ -190,6 +191,25 @@ namespace Demo
 
             #endregion
 
+            #region Part 09 Built-In Interface IComparer
+
+            // Employee[] employees =
+            //     {
+            //     new Employee(){Id=10 , Name = "Ahmed" , Salary = 9000},
+            //     new Employee(){Id=11 , Name = "Mahmoud" , Salary = 8000},
+            //     new Employee(){Id=12 , Name = "Mohamed" , Salary = 7000},
+            //     new Employee(){Id=13 , Name = "Anas" , Salary = 6000}
+            // };
+            //
+            // Array.Sort(employees,new EmployeeComperer());
+            //int[] Numbers = [1, 2, 3, 4, 7, 6, 9, 8];
+            //Array.Sort(Numbers,new IntComperer());
+            //foreach (int number in Numbers)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+            #endregion
 
 
         }
