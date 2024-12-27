@@ -81,9 +81,14 @@ namespace Assignment
             #endregion
 
             #region 4.	Try to use ==
-           // If(P1 == P2) // Don Know
+            // If(P1 == P2) // Don Know
             #endregion
 
+            #region 5.	Define an array of points and sort this array based on X & Y coordinates.
+             //int[] arr = [1, 2, 7, 6, 5];
+             //Array.Sort(arr);
+
+            #endregion
 
         }
 
