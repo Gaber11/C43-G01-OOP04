@@ -22,8 +22,8 @@ namespace Demo.OperatorOverloading
         {
             return new Complex()
             {
-                Real = (Left?.Real ??0) + (Right?.Real ??0),
-                Imag = (Left?.Imag ??0) + (Right?.Imag ??0)
+                Real = (Left?.Real ?? 0) + (Right?.Real ?? 0),
+                Imag = (Left?.Imag ?? 0) + (Right?.Imag ?? 0)
             };
             //left?.Real
             //Left !=null? Left.Real:null
@@ -40,6 +40,31 @@ namespace Demo.OperatorOverloading
             //Left !=null? Left.Real:null
         }
 
+        #endregion
+
+
+        #region Unary Operators
+        public static Complex operator ++(Complex C)
+        {
+            return new Complex()
+            {
+                Real = (C?.Real ?? 0) + 1,
+                Imag = (C?.Imag ?? 0)
+
+            };
+
+        }
+
+        public static Complex operator --(Complex C)
+        {
+            return new Complex()
+            {
+                Real = (C?.Real ?? 0) - 1,
+                Imag = (C?.Imag ?? 0)
+
+            };
+
+        }
         #endregion
 
     }

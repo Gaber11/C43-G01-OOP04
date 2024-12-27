@@ -222,13 +222,25 @@ namespace Demo.OperatorOverloading
 
             //Console.WriteLine($"C1 = {c1}");
             //Console.WriteLine($"C2 = {c2}");
-            
+
             //Console.WriteLine($"{c1} + {c2} = {c3}");
 
 
 
 
             #endregion
+
+            #region Part 11 Operators Overloading - Unary Operators
+            //Complex C1 = new Complex() { Real = 2, Imag = 4 };
+            //Complex C2 = new Complex() { Real = 3, Imag = 5 };
+            ////  Complex C3 = default;  //Null
+
+            //Console.WriteLine($"C1 = {C1}");
+            //Complex C3 = ++C1;
+            //Console.WriteLine($"After ++C1 = {C1}");
+
+            #endregion
+
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
