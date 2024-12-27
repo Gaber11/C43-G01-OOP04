@@ -39,12 +39,19 @@ namespace Assignment
 
             #region Part 02 1.	Define 3D Point Class and the basic Constructors (use chaining in constructors).
 
-          
+            //Point3D po1 = new Point3D(); 
+            //Point3D po2 = new Point3D(7, 5); 
+            //Point3D po3 = new Point3D(4,23 ,11 ); 
 
-
-
-            #endregion
-
+            //Console.WriteLine(po1);
+            //Console.WriteLine(po2);
+            //Console.WriteLine(po3);
         }
+
+
+
+        #endregion
+
     }
-}
+    }
+
