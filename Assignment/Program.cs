@@ -36,6 +36,15 @@ namespace Assignment
 
 
             #endregion
+
+            #region Part 02 1.	Define 3D Point Class and the basic Constructors (use chaining in constructors).
+
+          
+
+
+
+            #endregion
+
         }
     }
 }
