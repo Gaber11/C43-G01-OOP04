@@ -46,11 +46,21 @@ namespace Assignment
             //Console.WriteLine(po1);
             //Console.WriteLine(po2);
             //Console.WriteLine(po3);
+            #endregion
+
+            #region 2.	Override the ToString Function to produce this output:
+
+            //Point3D P = new Point3D(10, 10, 10);
+            //Console.WriteLine(P.ToString());
+
+
+
+            #endregion
+
+
+
+
         }
-
-
-
-        #endregion
 
     }
     }
