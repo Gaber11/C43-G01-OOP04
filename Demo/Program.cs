@@ -160,6 +160,38 @@ namespace Demo
 
 
             #endregion
+
+            #region Part 08 Built-In Interface ICompareable
+
+            //int[] Numbers = [9, 5, 6, 7, 1, 2, 3, 4, 8];
+            //Array.Sort(Numbers);
+
+            //foreach (int i in Numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Employee[] employees =
+            //    {
+            //    new Employee(){Id=10 , Name = "Ahmed" , Salary = 9000},
+            //    new Employee(){Id=11 , Name = "Mahmoud" , Salary = 8000},
+            //    new Employee(){Id=12 , Name = "Mohamed" , Salary = 7000},
+            //    new Employee(){Id=13 , Name = "Anas" , Salary = 6000}
+
+            //};
+            //Array.Sort(employees);
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+
+
+
+
+
+            #endregion
+
+
+
         }
         //static void PrintTenNumberFromSeries(Iseries series)
         //{
